@@ -1,0 +1,63 @@
+/* src/components/Section3.css */
+.section3 {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.section3-title {
+    font-size: 2.5rem;
+    color: #000000; 
+    margin-bottom: 50px; 
+    font-family: 'poppins', sans-serif; 
+}
+
+
+.section3-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section3-image {
+    flex: 0 0 400px;
+    width: 40px;
+}
+
+.section3-image img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.section3-text {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    align-self: center;
+    font-size: 25px;
+}
+
+/* Reverse the order for the even blocks */
+.section3-block.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 1024px) {
+    .section3-block {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .section3-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .section3-image {
+        margin-bottom: 20px;
+    }
+}
+

@@ -1,0 +1,115 @@
+.cards-container-1{
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px;
+  padding: 40px;
+  margin-bottom: 80px;
+  flex-direction: row; 
+}
+
+.section5, .section5-1 {
+  flex: 0 0 48%; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 20px;
+  width: 400px;
+  height: 500px;
+  text-align: left;
+  position: relative;
+  background: url('../../src/assets/card2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: box-shadow 0.3s ease;
+}
+
+.arrow, .arrow-1 {
+  position: absolute; 
+  top: 30px;
+  right: 20px;
+  transform: translateY(-50%); 
+  font-size: 1.5rem;
+  color: #000000;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.arrow:hover, .arrow-1:hover {
+  transform: translateY(-50%) translateX(5px); 
+}
+
+.section5:hover, .section5-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.section5-title, .section5-1-title {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: left;
+}
+
+.section5-description, .section5-1-description {
+  font-size: 1.2rem;
+  color: #5b5b5b;
+  text-align: left;
+  margin-top: 30px;
+}
+
+/* Product Carousel styles */
+.product-carousel, .product-1-carousel {
+  display: flex;
+  overflow-x: scroll;  
+  scroll-behavior: smooth; 
+  padding: 20px;
+  gap: 20px; 
+  -ms-overflow-style: none;  
+}
+
+.product-carousel::-webkit-scrollbar, .product-1-carousel::-webkit-scrollbar {
+  display: none;            
+}
+
+.product-item, .product-1-item {
+  flex: 0 0 auto;  
+  width: 150px;  
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-item img, .product-1-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.button, .button-1 {
+  display: inline-block;
+  padding: 10px 60px; 
+  font-size: 1rem; 
+  color: #ffffff; 
+  background-color: #5c81f9; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-decoration: none; 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+  margin-top: 40px;
+  left: -5px; 
+  position: relative;
+}
+
+.button:hover, .button-1:hover {
+  background-color: rgb(72, 95, 170); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+@media (max-width: 768px) {
+  .product-item, .product-1-item {
+    width: 120px;
+  }
+}

@@ -1,0 +1,25 @@
+
+.section2 {
+    background-color: #d6d4d4; 
+    text-align: center; 
+    padding: 60px 20px;
+  }
+  
+  
+  .section2-title {
+    font-size: 3rem;
+    color: #000000; 
+    margin-bottom: 50px; 
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  
+  .section2-customers {
+    display: flex; 
+    justify-content: center; 
+    gap: 80px; 
+  }
+  
+  
+  
+  
