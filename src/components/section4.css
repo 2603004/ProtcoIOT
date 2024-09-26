@@ -34,10 +34,10 @@
 
 .section4-description, 
 .section4-1-description {
-  font-size: 1.4rem;
-  color: #333;
-  text-align: left;
-  margin-top: 40px;
+  font-size: 1.3rem;
+  color: #656565;
+  text-align: center;
+  margin-top: 60px;
   font-family:'Lato';
   font-weight:bold ;
 }
@@ -68,7 +68,7 @@
 .product-1-item {
   
   padding: 0; 
-  background-color: #ffffff;
+  background-color: #5791dc;
   text-align: center;
   transition: transform 0.3s;
   margin-right: 20px;

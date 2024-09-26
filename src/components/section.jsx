@@ -6,6 +6,8 @@ import'./section3.css'
 import'./section4.css'
 import'./section5.css'
 import'./section6.css'
+import'./section7.css'
+import'./section8.css'
 import Lottie from "lottie-react"
 import sec_img1 from '../../src/assets/image1.json'
 import sec_img2 from '../../src/assets/image2.json'
@@ -30,6 +32,12 @@ import lorawan from'../../src/assets/lorawan.png'
 import zigbee from'../../src/assets/zigbee.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import card_img1 from '../../src/assets/card_img1.png'
+import card_img2 from '../../src/assets/card_img2.png'
+import card_img3 from '../../src/assets/card_img3.png'
+import card_img4 from '../../src/assets/card_img4.png'
+import cloud_iot from'../../src/assets/cloud_iot.png'
+import image from'../../src/assets/image.png'
 const Section1 = () => {
   return (
     <div className="section1">
@@ -138,10 +146,7 @@ const Section3 = () => {
             </div>
           </div>
           <h2 className="section4-description">
-            Protco Smart IoT Platform enables virtually any product category to become smart and controlled globally via the internet. 
-            </h2>
-          <h2 className="section4-description">
-            From home appliances and security systems to industrial machinery and environmental sensors.
+            Protco Smart IoT Platform enables virtually any product category to become smart and controlled globally via the internet.
           </h2>
         </div>
   
@@ -158,10 +163,7 @@ const Section3 = () => {
             </div>
           </div>
           <h2 className="section4-1-description">
-            Protco Smart IoT Platform provides flexibility to connect end-user devices to its cloud IoT platform using various connectivity methods.
-          </h2>
-          <h2 className="section4-1-description">
-            ZigBee, WiFi, BLE, SigMesh, LoRaWAN, Matter & Cellular and communication protocols like MQTT, HTTP.
+          Protco Smart IoT Platform provides flexibility to connect end user device to its cloud IoT Platform using various connectivity methods( ZigBee, WiFi, BLE, SigMesh, LoRaWAN Matter & Cellular) and communication protocols(like MQTT, HTTP)
           </h2>
         </div>
       </div>
@@ -169,44 +171,73 @@ const Section3 = () => {
   };
   const Section5 = () => {
     return (
+      <div className="section-wrapper">
+      <div className="section-header">
+        <h1 className="section-title">Protco Smart IoT Platform</h1>
+        <p className="section-description">
+        Protco Smart IoT platform is created to help make it simple and profitable for global enterprises by providing full range of IoT service including IoT software and hardware
+        development on private IoT platform or 3rd party public IoT platform and make people from
+        over the world realize the amazing power and potential of IoT technology.
+        </p>
+        <img
+          img src={cloud_iot}
+          className="section-header-img"
+        />
+        </div>
       <div class="cards-container-1">
         <div className="section5">
-          <h2 className="section5-title">Protco Smart IoT Platform</h2>
+          <h2 className="section5-title">IoT complexity solved at every stage</h2>
+          <img 
+          src={card_img1}
+          className="section5-img"/>
              <p className="section5-description">
-             Protco Smart IoT platform is created to help make it simple and profitable for global enterprises by providing full range of IoT service including IoT software and hardware development on private IoT platform or 3rd party public IoT platform and make people from over the world realize the amazing power and potential of IoT technology.
+             Manage the full IoT lifecycle from prototype to production with enterprise grade security throughout.Build high-quality mobile apps and cloud services, run fleet tests, deploy seamlessly, market
+             to users, manage devices, data, configurations and updates, and analyse and grow your IoT business.
              </p>
           <a href="#"class="button">Learn More</a>
           <a href="#" class="arrow"><FontAwesomeIcon icon={faArrowRight} /></a>
         </div>
     
       <div className="section5-1">
-        <h2 className="section5-1-title">IoT complexity solved at every stage</h2>
+        <h2 className="section5-1-title">Build High Quality Branded Mobile App</h2>
+        <img 
+          src={card_img2}
+          className="section5-1-img"/>
            <p className="section5-1-description">
-           Manage the full IoT lifecycle from prototype to production with enterprise grade security throughout.
-           Build high-quality mobile apps and cloud services, run fleet tests, deploy seamlessly, market to users, manage devices, data, configurations and updates, and analyse and grow your IoT business.
+           Empowering Your Vision: Tailored OEM Brand Apps by Protco Unlock bespoke, cutting-edge brand app solutions that cater to your unique innovation requirements. From seamless launch and updates to seamless integration with third-party ecosystems, Protco elevates
+           enterprise efficiency with cost-effective, personalized smart apps.
         </p>
         <a href="#"class="button-1">Learn More</a>
         <a href="#" class="arrow-1"><FontAwesomeIcon icon={faArrowRight} /></a>
       </div>
      </div> 
+    </div>
       );
     };
   const Section6 = () => {
       return (
         <div class="cards-container-2">
           <div className="section6">
-            <h2 className="section6-title">Build High Quality Branded Mobile App</h2>
+            <h2 className="section6-title">Web control and management App</h2>
+            <img 
+          src={card_img3}
+          className="section6-img"/>
                <p className="section6-description">
-               Empowering Your Vision: Tailored OEM Brand Apps by Protco Unlock bespoke, cutting-edge brand app solutions that cater to your unique innovation requirements. From seamless launch and updates to seamless integration with third-party ecosystems, Protco elevates enterprise efficiency with cost-effective, personalized smart apps.
-               </p>
+               A personalized and customized administration/management UI with powerful data visualization design, development and multi-terminal display capabilities, it allows to manage devices,       store, monitor and analyze data from thousands of IoT sources.
+</p>
             <a href="#"class="button">Learn More</a>
             <a href="#" class="arrow"><FontAwesomeIcon icon={faArrowRight} /></a>
           </div>
       
         <div className="section6-1">
-          <h2 className="section6-1-title">Web control and management App</h2>
+          <h2 className="section6-1-title">Matter App (Coming Soon)</h2>
+          <img 
+          img src={card_img4}
+          className="section6-1-img"/>
              <p className="section6-1-description">
-             A personalized and customized administration/management UI with powerful data visualization design, development and multi-terminal display capabilities, it allows to manage devices, store, monitor and analyze data from thousands of IoT sources.
+             Protco revolutionizes IoT connectivity through seamless Matter protocol integration,
+             enhancing device interactions. Our innovative OEM app further streamlines the experience,
+             redefining the way you engage with your smart devices.
           </p>
           <a href="#"class="button-1">Learn More</a>
           <a href="#" class="arrow-1"><FontAwesomeIcon icon={faArrowRight} /></a>
@@ -214,40 +245,59 @@ const Section3 = () => {
        </div> 
         );
       };
+      const Section7 = () => {
+        return (
+          <section className="section7" id="section7">
+            <h2 className="section7-title">Explore Our Features</h2>
+            <h2 className="section7-description">
+              Discover the wide range of features we provide to enhance your experience.
+            </h2>
+            
+            <div className="image">
+              <img src={image} />
+            </div>
+          </section>
+        );
+      };
+      const Section8 = () => {
+        return (
+          <section id="section8" className="section8-container">
+            <div className="section8-content">
+              <h1>Need to Know </h1>
+              <p2>Our Development Process?</p2>
+              <p>
+                We embrace a systematic approach ensuring high quality standards and timely delivery of projects. 
+                From initial conception to final implementation, our team of experts work with you to transform your ideas into reality.
+              </p>
+      
+              <p2>Why Choose Protco?</p2>
+              <p>
+                Choosing Protco means you’re opting for excellence, innovation, and commitment. 
+                Our distinctive services and unparalleled support will empower your business, setting you on the path to success.
+              </p>
+      
+              <p2>Custom Solutions?</p2>
+              <p>
+                We believe that every business is unique and requires customized solutions. 
+                Our team of experts will work closely with you to develop tailor-made strategies and applications that suit your specific needs.
+              </p>
+            </div>
+          </section>
+        );
+      };
+      
 const App = () => {
-        const [activeTab, setActiveTab] = useState('home'); // Track active tab
-      
-        // Function to track scroll position
-        const handleScroll = () => {
-          const section4 = document.getElementById('section4');
-          const section5 = document.getElementById('section5');
-      
-          const section4Top = section4?.getBoundingClientRect().top;
-          const section5Top = section5?.getBoundingClientRect().top;
-      
-          if (section5Top <= 0) {
-            setActiveTab('service'); // Activate service tab when scrolled to Section 5 or later
-          } else if (section4Top <= 0) {
-            setActiveTab('home'); // Activate home tab until section 4
-          }
-        };
-      
-        useEffect(() => {
-          window.addEventListener('scroll', handleScroll);
-          return () => {
-            window.removeEventListener('scroll', handleScroll);
-          };
-        }, []);
-      
+        
         return (
           <div>
-            <Navbar activeTab={activeTab} />
             <Section1 />
             <Section2 />
             <Section3 />
-            <Section4 id="section4" />
-            <Section5 id="section5" />
+            <Section4/>
+            <Section5 />
             <Section6 />
+            <Section7/>
+            <Section8/>
           </div>
         );
       };
