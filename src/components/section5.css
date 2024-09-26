@@ -25,7 +25,7 @@
 
 .arrow, .arrow-1 {
   position: absolute; 
-  top: 30px;
+  top: 29px;
   right: 20px;
   transform: translateY(-50%); 
   font-size: 1.5rem;
