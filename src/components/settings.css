@@ -1,0 +1,42 @@
+.settings-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.settings-content {
+  display: flex;
+  align-items: center;
+  background-color: #434040;
+  padding: 10px;
+  border-radius: 40px;
+  transition: width 0.3s ease;
+  width: 50px; /* Initially small */
+  overflow: hidden; /* Hide text when not hovered */
+}
+
+.settings-content:hover {
+  width: 250px; /* Expand to show text */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-icon {
+    font-size: 30px; /* Increase the size of the FontAwesome icon */
+    color: #f4f4f4f4; /* Set the icon color to white */
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    
+  }
+
+.settings-text {
+  opacity: 0;
+  white-space: nowrap;
+  color: #f4f4f4f4;
+  transition: opacity 0.3s ease;
+}
+
+.settings-content:hover .settings-text {
+  opacity: 1;
+}

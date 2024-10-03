@@ -39,7 +39,7 @@ import card_img4 from '../../src/assets/card_img4.png'
 import cloud_iot from'../../src/assets/cloud_iot.png'
 import iot_img from'../../src/assets/iot_img.jpg'
 import image from'../../src/assets/image.png'
-const Section1 = () => {
+  const Section1 = () => {
   return (
     <div className="section1">
     <div className="section1-image left-image">
@@ -65,7 +65,7 @@ const Section1 = () => {
   )
 }
 
-const Section2 = () => {
+  const Section2 = () => {
     return (
       <div className="section2">
         <h2 className="section2-title">Trusted By</h2>
@@ -81,7 +81,7 @@ const Section2 = () => {
     );
   };
   
-const Section3 = () => {
+  const Section3 = () => {
     return (
       <div className="section-wrapper">
       <div className="section-header">
@@ -255,7 +255,7 @@ const Section3 = () => {
        </div> 
         );
       };
-      const Section7 = () => {
+  const Section7 = () => {
         return (
           <section className="section7" id="section7-container">
             <h2 className="section7-title">
@@ -268,7 +268,7 @@ const Section3 = () => {
           </section>
         );
       };
-      const Section8 = () => {
+  const Section8 = () => {
         return (
           <section id="section8" className="section8-wrapper">
              <div className="section8-content">
