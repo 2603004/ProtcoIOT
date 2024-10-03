@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Protco/static/css/main.849edec5.css",
-    "main.js": "/Protco/static/js/main.7b4553df.js",
-    "static/media/card_img3.png": "/Protco/static/media/card_img3.4c5bf0a147bccd3be721.png",
-    "static/media/logo.png": "/Protco/static/media/logo.f2da82dbbacb6a65c057.png",
-    "static/media/card_img1.png": "/Protco/static/media/card_img1.da23a01e12c960cfed02.png",
-    "static/media/cloud_iot.png": "/Protco/static/media/cloud_iot.73fd988783406dfbabb8.png",
-    "static/media/card_img2.png": "/Protco/static/media/card_img2.6b3df0cada81872a825e.png",
-    "static/media/iot_img.jpg": "/Protco/static/media/iot_img.a9b94215a1e0797caf37.jpg",
-    "static/media/card_img4.png": "/Protco/static/media/card_img4.2c0eca8b23cc6eabf7ba.png",
-    "index.html": "/Protco/index.html",
-    "main.849edec5.css.map": "/Protco/static/css/main.849edec5.css.map",
-    "main.7b4553df.js.map": "/Protco/static/js/main.7b4553df.js.map"
+    "main.css": "/ProtcoIOT/static/css/main.d248a5ff.css",
+    "main.js": "/ProtcoIOT/static/js/main.d5456e7c.js",
+    "static/media/card_img3.png": "/ProtcoIOT/static/media/card_img3.4c5bf0a147bccd3be721.png",
+    "static/media/logo.png": "/ProtcoIOT/static/media/logo.f2da82dbbacb6a65c057.png",
+    "static/media/card_img1.png": "/ProtcoIOT/static/media/card_img1.da23a01e12c960cfed02.png",
+    "static/media/cloud_iot.png": "/ProtcoIOT/static/media/cloud_iot.73fd988783406dfbabb8.png",
+    "static/media/card_img2.png": "/ProtcoIOT/static/media/card_img2.6b3df0cada81872a825e.png",
+    "static/media/iot_img.jpg": "/ProtcoIOT/static/media/iot_img.a9b94215a1e0797caf37.jpg",
+    "static/media/card_img4.png": "/ProtcoIOT/static/media/card_img4.2c0eca8b23cc6eabf7ba.png",
+    "index.html": "/ProtcoIOT/index.html",
+    "main.d248a5ff.css.map": "/ProtcoIOT/static/css/main.d248a5ff.css.map",
+    "main.d5456e7c.js.map": "/ProtcoIOT/static/js/main.d5456e7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.849edec5.css",
-    "static/js/main.7b4553df.js"
+    "static/css/main.d248a5ff.css",
+    "static/js/main.d5456e7c.js"
   ]
 }
