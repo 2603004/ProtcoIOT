@@ -15,7 +15,7 @@ const Footer = () => {
         <h3 className="footer-title">Company</h3>
         <ul className="footer-links">
           <li><a href="#home">Home</a></li>
-          <li><a href="#service">Services</a></li>
+          <li><a href="#service">Protco IOT Smart</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#policy">Privacy Policy</a></li>
         </ul>
@@ -23,7 +23,7 @@ const Footer = () => {
 
       <div className="footer-section footer-right">
         <h3 className="footer-title">Connect</h3>
-        <p className="footer-contact">Phone: +123 456 7890</p>
+        <p className="footer-contact">Phone: +91 78785 44128</p>
         <p className="footer-contact">Email: info@protco.in</p>
       </div>
     </footer>

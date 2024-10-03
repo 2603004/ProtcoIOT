@@ -1,23 +1,19 @@
 .section7 {
-    padding: 60px;
+    padding: 40px;
     text-align: center; 
-    background-color:#d6d4d4;
+    background-color:#ebebeb;
   }
   
   .section7-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #000000;
-  }
-  
-  .section7-description {
-    font-size: 1.8rem;
-    color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .image img {
-    width: 500px; /* Increase or decrease the size as needed */
+    width: 400px; /* Increase or decrease the size as needed */
     height: auto;
-    
+    margin-bottom: 75px;
   }
   

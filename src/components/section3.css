@@ -2,17 +2,8 @@
 .section3 {
     padding: 80px 20px;
     text-align: center;
-    background-color: #f4f4f4; /* Light background for contrast */
+    background-color: #ffffff; /* Light background for contrast */
 }
-
-.section3-title {
-    font-size: 2.5rem;
-    color: #000000; 
-    margin-bottom: 50px; 
-    font-family: 'poppins', sans-serif; 
-}
-
-
 .section3-block {
     display: flex;
     justify-content: space-between;

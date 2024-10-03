@@ -37,6 +37,7 @@ import card_img2 from '../../src/assets/card_img2.png'
 import card_img3 from '../../src/assets/card_img3.png'
 import card_img4 from '../../src/assets/card_img4.png'
 import cloud_iot from'../../src/assets/cloud_iot.png'
+import iot_img from'../../src/assets/iot_img.jpg'
 import image from'../../src/assets/image.png'
 const Section1 = () => {
   return (
@@ -82,8 +83,17 @@ const Section2 = () => {
   
 const Section3 = () => {
     return (
-      <div className="section3">
-        <h2 className="section3-title">From Vision to Reality with Protco Smart IoT Platform</h2>
+      <div className="section-wrapper">
+      <div className="section-header">
+        <h1 className="section-title">From Vision to Reality </h1>  
+        <p className="section-description">
+        With Protco, turn your IoT ideas into a seamless reality, giving your business the competitive edge it deserves. Protco’s Tech Team will work with your team to translate an idea to a prototype and eventually converting it to commercial product ready for mass production.
+        </p>
+        <img
+          img src={iot_img}
+          className="section-header-img"
+        />
+        </div>
        <div classname="container">
       
         <div className="section3-block">
@@ -247,10 +257,9 @@ const Section3 = () => {
       };
       const Section7 = () => {
         return (
-          <section className="section7" id="section7">
-            <h2 className="section7-title">Explore Our Features</h2>
-            <h2 className="section7-description">
-              Discover the wide range of features we provide to enhance your experience.
+          <section className="section7" id="section7-container">
+            <h2 className="section7-title">
+            Interconnect with global IoT ecosystems
             </h2>
             
             <div className="image">
@@ -261,26 +270,31 @@ const Section3 = () => {
       };
       const Section8 = () => {
         return (
-          <section id="section8" className="section8-container">
-            <div className="section8-content">
-              <h1>Need to Know </h1>
-              <p2>Our Development Process?</p2>
+          <section id="section8" className="section8-wrapper">
+             <div className="section8-content">
+            <p>Need to Know </p></div>
+          <div className="section8-row">
+            <div className="section8-item">
+              <h1>Our Development Process?</h1>
               <p>
                 We embrace a systematic approach ensuring high quality standards and timely delivery of projects. 
                 From initial conception to final implementation, our team of experts work with you to transform your ideas into reality.
               </p>
-      
-              <p2>Why Choose Protco?</p2>
+              </div>
+              <div className="section8-item">
+              <h1>Why Choose Protco?</h1>
               <p>
                 Choosing Protco means you’re opting for excellence, innovation, and commitment. 
                 Our distinctive services and unparalleled support will empower your business, setting you on the path to success.
               </p>
-      
-              <p2>Custom Solutions?</p2>
+              </div>
+              <div className="section8-item">
+              <h1>Custom Solutions?</h1>
               <p>
                 We believe that every business is unique and requires customized solutions. 
                 Our team of experts will work closely with you to develop tailor-made strategies and applications that suit your specific needs.
               </p>
+              </div>
             </div>
           </section>
         );

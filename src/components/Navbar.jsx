@@ -23,8 +23,9 @@ const Navbar = () => {
       
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
+                <li><a href="#Protco IOT smart">Protco IOT smart</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#Privacy policy">Privacy policy</a></li>
             </ul>
     </nav>
     

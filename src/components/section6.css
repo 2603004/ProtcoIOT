@@ -3,9 +3,10 @@
     display: flex; 
     justify-content: space-between; 
     gap: 20px;
-    padding: 40px;
-    margin-top: 10px;
+    padding: 50px;
     flex-direction: row; 
+    background-color: #ffffff;
+    margin-top: -90px;
   }
   
   .section6, .section6-1 {
@@ -22,12 +23,15 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: box-shadow 0.3s ease;
+  
   }
   .section6-img {
-    width: 65%; /* Adjust width to match the card */
-    height: auto;
-    display: block;  /* Ensure the image is treated as a block element */
-    margin: 0 auto 5px;
+    width: 90%; /* Adjust width to match the card */
+    height: 300px;
+    display: block;  
+    margin:0 auto 10px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   .section6-1-img {
     width: 55%; /* Adjust width to match the card */
@@ -62,25 +66,17 @@
     text-align: left;
   }
   
-  .section6-description, .section6-1-description {
+  .section6-1-description {
     font-size: 1.2rem;
     color: #5b5b5b;
     text-align: left;
     margin-top: 10px;
   }
-  
-  /* Product Carousel styles */
-  .product-carousel, .product-1-carousel {
-    display: flex;
-    overflow-x: scroll;  
-    scroll-behavior: smooth; 
-    padding: 20px;
-    gap: 20px; 
-    -ms-overflow-style: none;  
-  }
-  
-  .product-carousel::-webkit-scrollbar, .product-1-carousel::-webkit-scrollbar {
-    display: none;            
+  .section6-description {
+    font-size: 1.2rem;
+    color: #5b5b5b;
+    text-align: left;
+    margin-top: 32px;
   }
   
   .product-item, .product-1-item {
@@ -91,15 +87,6 @@
     padding: 20px;
     text-align: center;
   }
-  
-  .product-item img, .product-1-item img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  /* Button styles */
   .button, .button-1 {
     display: inline-block;
     padding: 10px 60px; 
