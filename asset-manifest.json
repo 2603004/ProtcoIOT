@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ProtcoIOT/static/css/main.87ae7a94.css",
-    "main.js": "/ProtcoIOT/static/js/main.d5456e7c.js",
+    "main.css": "/ProtcoIOT/static/css/main.8fa944eb.css",
+    "main.js": "/ProtcoIOT/static/js/main.471ee497.js",
     "static/media/card_img3.png": "/ProtcoIOT/static/media/card_img3.4c5bf0a147bccd3be721.png",
     "static/media/logo.png": "/ProtcoIOT/static/media/logo.f2da82dbbacb6a65c057.png",
     "static/media/card_img1.png": "/ProtcoIOT/static/media/card_img1.da23a01e12c960cfed02.png",
     "static/media/cloud_iot.png": "/ProtcoIOT/static/media/cloud_iot.73fd988783406dfbabb8.png",
+    "static/media/iot_img.png": "/ProtcoIOT/static/media/iot_img.c63b744e2cb2e8363e3e.png",
     "static/media/card_img2.png": "/ProtcoIOT/static/media/card_img2.6b3df0cada81872a825e.png",
-    "static/media/iot_img.jpg": "/ProtcoIOT/static/media/iot_img.a9b94215a1e0797caf37.jpg",
     "static/media/card_img4.png": "/ProtcoIOT/static/media/card_img4.2c0eca8b23cc6eabf7ba.png",
     "index.html": "/ProtcoIOT/index.html",
-    "main.87ae7a94.css.map": "/ProtcoIOT/static/css/main.87ae7a94.css.map",
-    "main.d5456e7c.js.map": "/ProtcoIOT/static/js/main.d5456e7c.js.map"
+    "main.8fa944eb.css.map": "/ProtcoIOT/static/css/main.8fa944eb.css.map",
+    "main.471ee497.js.map": "/ProtcoIOT/static/js/main.471ee497.js.map"
   },
   "entrypoints": [
-    "static/css/main.87ae7a94.css",
-    "static/js/main.d5456e7c.js"
+    "static/css/main.8fa944eb.css",
+    "static/js/main.471ee497.js"
   ]
 }
